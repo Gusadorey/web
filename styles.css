@@ -1,19 +1,58 @@
 body {
-    font-family: Arial;
+    font-family: Arial, sans-serif;
     margin: 0;
-    background-color: #f4f4f4;
-}
-
-header {
-    background: #007acc;
+    background: #0f172a;
     color: white;
-    padding: 20px;
-    text-align: center;
 }
 
-.proyecto {
-    background: white;
-    margin: 20px;
-    padding: 15px;
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(135deg, #1e3a8a, #2563eb);
+}
+
+/* SECCIONES */
+section {
+    padding: 50px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* TITULOS */
+h2 {
+    border-bottom: 2px solid #2563eb;
+    padding-bottom: 10px;
+}
+
+/* PROYECTOS */
+.card {
+    background: #1e293b;
+    padding: 20px;
+    margin-top: 20px;
     border-radius: 10px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+/* LINKS */
+a {
+    color: #38bdf8;
+    text-decoration: none;
+}
+
+/* SKILLS */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #1e293b;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
 }
