@@ -1,1 +1,1 @@
-
+console.log("Tu web está funcionando 🚀");
